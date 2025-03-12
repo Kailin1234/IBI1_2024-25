@@ -16,4 +16,7 @@ X = True
 Y = False
 W = X and Y
 print(W)
-# W is False.
+# X is True, Y is False, so W is False.
+# X is True, Y is True, so W is True.
+# X is False, Y is True, so W is False.
+# X is False, Y is False, so W is False.
