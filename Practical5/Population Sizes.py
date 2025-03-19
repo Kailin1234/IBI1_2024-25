@@ -24,7 +24,7 @@ labels1 = 'England', 'Wales', 'Northern Ireland', 'Scotland' # Input the labels 
 uk_countries = [57.11, 3.13, 1.91, 5.45] # Create a list to store data of uk countries.
 sizes1 = uk_countries # Determine the sizes of the first figure, using the data stored.
 explode1 = (0, 0, 0, 0) # Every part isn't highlighted in this figure.
-ax1.pie(sizes1, explode=explode1, labels=labels1, autopct='%1.1f%%') # Dtermine the information of figure1, including the sizes, explode, labels and autopct.
+ax1.pie(sizes1, explode=explode1, labels=labels1, autopct='%1.1f%%', shadow = False, startangle=90) # Dtermine the information of figure1.
 ax1.axis('equal') # Determine the figure is a circle.
 ax1.set_title('UK') # Determine the title.
 
@@ -38,7 +38,7 @@ labels2 = 'Zhejiang', 'Fujian', 'Jiangxi', 'Anhui', 'Jiangsu' # Input the labels
 China_provinces = [65.77, 41.88, 45.28, 61.27, 85.15] # Create a list to store data of China provinces.
 sizes2 = China_provinces # Determine the sizes of the second figure, using the data stored.
 explode2 = (0, 0, 0, 0, 0) # Every part isn't highlighted in this figure.
-ax2.pie(sizes2, explode=explode2, labels=labels2, autopct='%1.1f%%') # Dtermine the information of figure2, including the sizes, explode, labels and autopct.
+ax2.pie(sizes2, explode=explode2, labels=labels2, autopct='%1.1f%%', shadow = False, startangle=90) # Dtermine the information of figure2.
 ax2.axis('equal') # Determine the figure is a circle.
 ax2.set_title('China') # Determine the title.
 
