@@ -20,9 +20,10 @@ else: # Another situation when inputing.
 # 6.Determine the width of bars.
 # 7.Use plt.bar function to create a bar chart, incuding information above(4,5,6).
 # 8.Determine xticks.
-# 9.Determine the title of this bar chart.
-# 10.Determine the ylabel.
-# 11.Output the bar chart.
+# 9.Determine the range and scale value of the y-axis.
+# 10.Determine the title of this bar chart.
+# 11.Determine the ylabel.
+# 12.Output the bar chart.
 
 import numpy as np # numpy package.
 import matplotlib.pyplot as plt # matplotlib.pyplot package.
@@ -32,6 +33,7 @@ ind = np.arange(N) # Create an index about N.
 width = 0.35 # The width of each bar.
 pl = plt.bar(ind, Users_percentage, width) # The data of the bar chart.
 plt.xticks(ind, ('JavaScript', 'HTML', 'Python', 'SQL', 'TypeScript')) # The x-axis(objects quantity and relevant names).
+plt.yticks(np.arange(0, 70, 10)) # The range and scale value of the y-axis.
 plt.title('Programming language popularity') # The bar chart title.
 plt.ylabel('Percentage') # The ylabel.
 plt.show() # Output the bar chart.
