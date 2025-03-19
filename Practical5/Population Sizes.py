@@ -1,3 +1,13 @@
+# 1.Input the list of uk_countries.
+# 2.Input the list of China_provinces.
+# 3.Output the sorted version of uk_countries.
+# 4.Output the sorted version of China_provinces.
+
+uk_countries = [57.11, 3.13, 1.91, 5.45] # List of uk_countries.
+China_provinces = [65.77, 41.88, 45.28, 61.27, 85.15] # List of China_provinces.
+print("uk_countries after sorted is", sorted(uk_countries)) # Output the sorted version.
+print("China_provinces after sorted is", sorted(China_provinces)) # Output the sorted version.
+
 # 1.Import matplotlib.pyplot to visualize statistic.
 # 2.Creat 2 figures.
 
