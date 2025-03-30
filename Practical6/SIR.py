@@ -42,3 +42,4 @@ plt.ylabel('number of people') # label of y-axis
 plt.title('SIR model') # title of this plot
 plt.legend() # legend of this plot
 plt.show() # output the complete plot
+plt.savefig('SIR.png')
