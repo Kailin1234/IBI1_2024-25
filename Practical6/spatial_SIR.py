@@ -1,6 +1,6 @@
 # import necessary libraries
-import numpy as np
-import matplotlib.pyplot as plt
+import numpy as np # import numpy library to process statistic
+import matplotlib.pyplot as plt # import matplotlib.pyplot library to visualize the statistic
 
 # set some basic variables and original population
 beta = 0.3 # infected probability
