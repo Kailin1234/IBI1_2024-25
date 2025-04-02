@@ -14,9 +14,9 @@ progress=0
 while progress>=0: # it will enter a loop, because it's always true.
 	progress+=1 # update the progress value as progress+1.
 	first_n = randint(1,6) # 1, 2, 3, 4, 5
-	second_n = randint(1,6)
+	second_n = randint(1,6) # 1, 2, 3, 4 ,5
 	if first_n == second_n: # execute when first_n = second_n
 		print(progress)
 		break
-# Every execution result is different.
-# Possible results:
+# Every execution result is possibly different.
+# Possible results:1, 6, 2......
