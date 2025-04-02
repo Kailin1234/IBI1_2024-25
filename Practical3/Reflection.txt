@@ -1,0 +1,15 @@
+This is an example file for reflection in IBI1_2024-25.
+
+During this course, I have learnt version control, how to navigate Unix-like systems and how to write simple programs in Python.
+
+I have also learnt to write careful instructions when communicating online!
+
+As far as I am concerned, lines above are really correct and I truly have learnt many things about GitHub.
+
+However, this process is not smooth at all, which is paid for 2 days to finish!
+
+To be honest, this process is challenging and painful, however, it works!
+
+Addtionally, I am confused that my default branch is called main, not master, and I find one of my classmates also met this question and we are both Windows users.
+
+Maybe it is because of operating systems?
