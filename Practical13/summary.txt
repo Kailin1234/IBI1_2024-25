@@ -1,5 +1,5 @@
 1. The length of the human SOD2 protein: 222
-2. The subcellular localisation of the human SOD2 protein: mitochondria
+2. The subcellular localisation of the human SOD2 protein: mitochondrial matrix
 3. The range of percentage identities: 58.1%~100%
 4.                Edit distance | Total score | Identity percentage 
    Human-Mouse         22       |     1097    |       90.09%
