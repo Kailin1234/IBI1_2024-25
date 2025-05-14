@@ -5,9 +5,9 @@ def read_fasta(filepath):
         seq = ''.join([line.strip() for line in lines if not line.startswith('>')])
     return seq
 
-seq1 = read_fasta('P04179.fasta.txt') 
-seq2 = read_fasta('P09671.fasta.txt') 
-seq3 = read_fasta('random.fasta.txt')
+seq1 = read_fasta('P04179.fasta') 
+seq2 = read_fasta('P09671.fasta') 
+seq3 = read_fasta('random.fasta')
 
 # Calculate the edit distance
 def edit_distance(seqA, seqB):
@@ -59,4 +59,4 @@ elif choice == "mouse-random":
     total_score, identity_percent = compare_sequences(seq2, seq3)
 print(f"Edit distance: {distance}")
 print(f"Total score: {total_score}")
-print(f"Identity percentage: {identity_percent:.2f}%")
+print(f"Identity percentage: {identity_percent:.2f}%") # .2f means 2 decimal places, add % sign
