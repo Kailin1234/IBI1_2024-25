@@ -12,7 +12,7 @@ print("China_provinces after sorted is", sorted(China_provinces)) # Output the s
 # 2.Creat 2 figures.
 
 import matplotlib.pyplot as plt # Import the pyplot module in matplotlib package. 
-fig, (ax1, ax2) = plt.subplots(1, 2) # Determine here will present 2 figures in 1 page.
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(15, 5)) # Determine here will present 2 figures in 1 page, and larger their size to ensure the figures are clear.
 
 # 3.Input the labels of the first pie chart.
 # 4.Input relevant data and store it in a list.
