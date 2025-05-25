@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer: times of entering the loop, until first_n = second_n
+# Answer: times of entering the loop, until first_n = second_n; the random number n is between 1 and 6.
 
 # Import libraries
 # randint allows drawing a random number,
