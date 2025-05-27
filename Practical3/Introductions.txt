@@ -1,4 +1,4 @@
 Hello, my name is Kerin.
 I like drinking water and eating biscuits.
 I am enjoying learning IBI1. 
-I am excited that I can push my repo from Visual Studio Code to GitHub
+I am excited that I can push my repo from Visual Studio Code to GitHub.
