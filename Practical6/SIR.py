@@ -1,8 +1,8 @@
-# import necessary libraries
-import numpy as np
-import matplotlib.pyplot as plt
+# 1.import necessary libraries
+import numpy as np # for numerical operations
+import matplotlib.pyplot as plt # for plotting
 
-# define the basic variables
+# 2.define the basic variables 
 N = 10000 # population
 S = 9999 # susceptible
 I = 1 # infected
@@ -10,12 +10,12 @@ R = 0 # recovered
 beta = 0.3 # infection probability
 gamma = 0.05 # recovery probability
 
-# create arraies to store updated data
+# 3.create arraies to store updated data
 Num_S = [S] # number of susceptible individual with times
 Num_I = [I] # number of infected individual with times
 Num_R = [R] # number of recovered individual with times
 
-# create a for loop to simulation SIR process
+# 4.create a for loop to simulation SIR process
 for n in range(1000): # create a for loop to execute for 1000 times
     random_recovered = np.random.choice(range(2), I, p=[1-gamma,gamma]) # 0 is unrecovered, 1 is recovered
     new_recovered = sum(random_recovered) # the number of recovered individuals
@@ -29,7 +29,7 @@ for n in range(1000): # create a for loop to execute for 1000 times
     Num_I.append(I) # update the I array for y-axis value of I curve
     Num_R.append(R) # update the R array for y-axis value of R curve
 
-# create a plot
+# 5.create a plot
 y1 = Num_S # set the y-value for S curve
 y2 = Num_I # set the y-value for I curve
 y3 = Num_R # set the y-value for R curve
@@ -42,4 +42,4 @@ plt.ylabel('number of people') # label of y-axis
 plt.title('SIR model') # title of this plot
 plt.legend() # legend of this plot
 plt.show() # output the complete plot
-plt.savefig('SIR.png')
+plt.savefig('SIR.png') # save the plot as a png file
