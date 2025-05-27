@@ -1,15 +1,15 @@
-# import necessary libraries
-import numpy as np
-import matplotlib.pyplot as plt
-from matplotlib import cm
+# 1.import necessary libraries
+import numpy as np # for numerical operations
+import matplotlib.pyplot as plt # for plotting
+from matplotlib import cm # for colormap
 
-# set some necessary variables and array.
+# 2.set some necessary variables and array.
 N = 10000 # population number
 beta = 0.3 # infected probability
 gamma = 0.05 # recovered probability
 vaccination_rate = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1] # an array to store data of vaccination rate
 
-# create a firgure that can execute in a for loop for many times
+# 3.create a firgure that can execute in a for loop for many times
 plt.figure(figsize=(6,4),dpi=150) # figure information: length is 6 inches, width is 4 inches, and pixel is 150
 for alpha in vaccination_rate: # every loop takes an unique alpha value
     I = 1 # initial infected number
