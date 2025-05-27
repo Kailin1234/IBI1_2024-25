@@ -25,6 +25,12 @@ def restriction_enzyme(sequence, recognised_segment): # Defining a new function
         final_positions.append(final_num) # Appending the final position to the list
     return final_positions # Returning the final positions
 
-sequence = "ACGGAATTCTGACGAATTCGATAGGAATTCCGATGAATTCAGCTAGAATTCGTA" # Example sequence
-recognised_segment = "GAATTC" # Example recognised segment
-print(restriction_enzyme("ACGGAATTCTGACGAATTCGATAGGAATTCCGATGAATTCAGCTAGAATTCGTA", "GAATTC")) #Output the restriction enzyme cut sites
+# Example
+sequence1 = "ACGGAATTCTGACGAATTCGATAGGAATTCCGATGAATTCAGCTAGAATTCGTA" # Example sequence
+recognised_segment1 = "GAATTC" # Example recognised segment
+print(restriction_enzyme(sequence1, recognised_segment1)) #Output the restriction enzyme cut sites
+
+# Let the user input the data
+sequence2 = input("Please enter the sequence: ") # Let the user input the sequence
+recognised_segment2 = input("Please enter the recognised segment: ") # Let the user input the recognised segment
+print(restriction_enzyme(sequence2, recognised_segment2)) # Output the restriction enzyme cut sites
