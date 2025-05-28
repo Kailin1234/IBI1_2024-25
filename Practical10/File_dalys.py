@@ -9,7 +9,8 @@ os.chdir(r'c:\cygwin64\home\kaili\IBI1_2024-25\IBI1_2024-25\Practical10') # Chan
 dalys_data = pd.read_csv("dalys-rate-from-all-causes.csv") # Access and read the data from this Excel.
 
 # 3.Explore the data.
-print(dalys_data.iloc[0:10,2]) # Show the year for the first 10 rows. The 10th year with DALYs data recorded in Afghanistan is 2000.
+print(dalys_data.iloc[0:10,2]) # Show the year for the first 10 rows.
+# The 10th year with DALYs data recorded in Afghanistan is 1999.
 print("----------")
 
 # 4.Extract the data of DALYs.
